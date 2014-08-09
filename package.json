@@ -1,0 +1,46 @@
+{
+  "name": "extract-range",
+  "description": "Extract a string in the given range (e.g. from line X to line Y).",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/extract-range",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/extract-range.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/extract-range/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/extract-range/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "range",
+    "extract",
+    "text",
+    "match",
+    "find",
+    "regex",
+    "re",
+    "regular expression"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^4.0.4",
+    "verb": ">= 0.2.6",
+    "verb-tag-jscomments": ">= 0.1.4"
+  }
+}
