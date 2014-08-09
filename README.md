@@ -18,23 +18,24 @@ var range = require('extract-range');
 ## Example
 
 ```js
-var readme = fs.readFileSync('test/fixtures/README.md', 'utf8');
-var range = extract(readme, 1);
-var re = /#\s([^\s]+)/;
+var readme = fs.readFileSync('README.md', 'utf8');
 
-console.log(range.match(re)[1]);
-//=> 'extract-range'
+console.log(extract(readme, 12));
+//=> '## Usage'
+
+console.log(extract(readme, 18));
+//=> '## Example'
 ```
 
 ## Author
 
 **Jon Schlinkert**
-
+ 
 + [github/jonschlinkert](https://github.com/jonschlinkert)
-+ [twitter/jonschlinkert](http://twitter.com/jonschlinkert)
++ [twitter/jonschlinkert](http://twitter.com/jonschlinkert) 
 
 ## License
-Copyright (c) 2014 Jon Schlinkert, contributors.
+Copyright (c) 2014 Jon Schlinkert, contributors.  
 Released under the MIT license
 
 ***
